@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .h2a{
+ 
+    align-content: center;
+   margin-left: 45%;
+  }
+  .p2a{
+    font-style: oblique;
+  text-indent: 0%;  
+  letter-spacing: 0%;
+  line-height: 1.3;
+  word-spacing: 1%;
+  margin-left: 7%;
+  }
+  .m-0{
+    font-style: oblique;
+    text-indent: 0%;  
+    letter-spacing: 0%;
+    line-height: 1.3;
+    word-spacing: 1%;
+    margin-left: 7%;
+  }
+  .image1{
+    height: 5%;
+    width: 5%;
+    margin-left: 37%;
+    padding: 1%;
+   
+  }
